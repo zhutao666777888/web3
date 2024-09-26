@@ -1,0 +1,16 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head> 
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>guessing number</title>  
+    <script src="randominteger.js"></script> 
+</head>  
+<body>
+    <div id="gameArea">  
+        <div id="gameStatus"></div>  
+        <input type="number" id="guessInput" min="1" max="100">  
+        <button onclick="playgame(document.getElementById('guessInput').value)">Guess</button>  
+    </div> 
+</body>  
+</html>
